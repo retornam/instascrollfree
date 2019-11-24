@@ -1,0 +1,25 @@
+{
+    "content_scripts": [
+        {
+            "js": [
+                "js/jquery.min.js",
+                "js/content.js"
+            ],
+            "matches": [
+                "https://*.instagram.com/*"
+            ]
+        }
+    ],
+    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+    "description": "Track DOM mutations on instagram.com's body to allow scrolling",
+    "icons": {
+        "128": "icon-128.png",
+        "16": "icon-16.png",
+        "48": "icon-48.png"
+    },
+    "manifest_version": 2,
+    "name": "make instagram scrollable again",
+    "offline_enabled": false,
+    "update_url": "https://clients2.google.com/service/update2/crx",
+    "version": "0.1"
+}
