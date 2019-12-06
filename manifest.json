@@ -6,7 +6,8 @@
                 "js/content.js"
             ],
             "matches": [
-                "https://*.instagram.com/*"
+                "https://*.instagram.com/*",
+                "https://*.medium.com/*"
             ]
         }
     ],
